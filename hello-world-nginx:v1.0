@@ -8,9 +8,3 @@ spec:
    containers:
    - name: hello-world
      image: quay.io/redhattraining/hello-world-nginx:v1.0
-     resources:
-        limits:
-           memory: "128Mi"
-	   cpu: "256m"
-     ports:
-     - containerPort: 8080
